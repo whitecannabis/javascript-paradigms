@@ -1,1 +1,1 @@
-const minNumber = arr => Math.min(...arr);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
