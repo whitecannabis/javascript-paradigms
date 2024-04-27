@@ -1,5 +1,5 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const executableName = getExecutableName(channel, appName);
-const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log(false === '0');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const channelName = getChannelName(channel);
+const randomString = () => Math.random().toString(36).slice(2);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
