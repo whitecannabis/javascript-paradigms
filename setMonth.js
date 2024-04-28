@@ -1,5 +1,4 @@
-const toggleBool = () => (bool = !bool);
-const arrayContains = (arr, element) => arr.includes(element);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-var c = new Counter(); c.add(); c.add(); c.add();
-const isArray = (arr) => Array.isArray(arr);
+const randomBoolean = () => Math.random() >= 0.5;
+var pattern = {};
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+var DELIM_SIZE = 4;
