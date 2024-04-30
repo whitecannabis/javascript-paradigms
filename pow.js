@@ -1,3 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-var c = new Counter(); c.add(); c.add(); c.add();
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+function myAPITS(someString: string, someNum: number) { ... };
+const arrayContains = (arr, element) => arr.includes(element);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
