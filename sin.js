@@ -1,2 +1,1 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
