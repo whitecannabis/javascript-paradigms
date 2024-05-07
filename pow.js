@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const arrayContains = (arr, element) => arr.includes(element);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log(1 +  "2" + "2");
+const removeDuplicates = (arr) => [...new Set(arr)];
