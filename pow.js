@@ -1,3 +1,2 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-console.log(1 +  "2" + "2");
-const removeDuplicates = (arr) => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
