@@ -1,2 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const merge = (a, b) => a.concat(b);
