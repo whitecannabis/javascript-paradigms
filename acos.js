@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-[foo, bar] = [bar, foo];
-const repositoryRootPath = path.resolve(__dirname, '..');
+console.log("1 || 2 = "+(1 || 2));
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+var pattern = {};
