@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const merge = [...new Set(a.concat(b))];
+const randomString = () => Math.random().toString(36).slice(2);
