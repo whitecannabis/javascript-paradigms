@@ -1,2 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const lastElement = arr => arr[arr.length - 1];
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
