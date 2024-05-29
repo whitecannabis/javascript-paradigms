@@ -1,3 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const removeDuplicates = (arr) => [...new Set(arr)];
+const value = ( 5 < 7 ) ? "True" : "False" ;
