@@ -1,3 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const removeDuplicates = (arr) => [...new Set(arr)];
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const uniqueArray = arr => [...new Set(arr)];
