@@ -1,2 +1,2 @@
-console.log(1 +  "2" + "2");
 const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(typeof typeof 1);
