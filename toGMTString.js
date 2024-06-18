@@ -1,3 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const merge = [...new Set(a.concat(b))];
-const randomString = () => Math.random().toString(36).slice(2);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
