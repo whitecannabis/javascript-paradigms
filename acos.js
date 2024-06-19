@@ -1,1 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const maxNumber = arr => Math.max(...arr);
+const isEven = (num) => num % 2 === 0;
