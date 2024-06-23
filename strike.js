@@ -1,1 +1,3 @@
-console.log(typeof typeof 1);
+const maxNumber = arr => Math.max(...arr);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const lastElement = arr => arr[arr.length - 1];
