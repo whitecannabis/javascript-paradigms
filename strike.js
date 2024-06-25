@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const lastElement = arr => arr[arr.length - 1];
+const flattenedArray = arr => [].concat(...arr);
+const updated = numbers.filter(element => element > 6);
