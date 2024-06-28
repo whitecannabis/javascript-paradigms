@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-console.log( "A" - "B" + "2");
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const isArray = (arr) => Array.isArray(arr);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
