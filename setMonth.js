@@ -1,3 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const stringReverse = str => str.split("").reverse().join("");
-const goToTop = () => window.scrollTo(0, 0);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
