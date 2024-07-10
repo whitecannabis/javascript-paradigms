@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isTabInView = () => !document.hidden;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
