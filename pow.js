@@ -1,1 +1,1 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
