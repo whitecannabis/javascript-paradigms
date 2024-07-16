@@ -1,2 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
