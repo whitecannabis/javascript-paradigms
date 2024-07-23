@@ -1,2 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-var arr1 = "john".split('');
+const results = await Promise.all(resultingPromises);
+const merge = [...new Set(a.concat(b))];
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
