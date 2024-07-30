@@ -1,3 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const merge = [...new Set(a.concat(b))];
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const repositoryRootPath = path.resolve(__dirname, '..');
+const allResults = await Promise.all(items.map(async (item) => {}));
