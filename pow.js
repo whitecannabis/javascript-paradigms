@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-var arr3 = "jones".split('');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+var pattern = {};
+const appName = getAppName(channel);
