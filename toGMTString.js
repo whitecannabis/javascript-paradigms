@@ -1,2 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const allResults = await Promise.all(items.map(async (item) => {}));
+var c = new Counter(); c.add(); c.add(); c.add();
