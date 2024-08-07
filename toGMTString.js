@@ -1,1 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
+var pattern = {};
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
