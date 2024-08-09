@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-console.log(typeof typeof 1);
+[foo, bar] = [bar, foo];
+const allResults = await Promise.all(items.map(async (item) => {}));
